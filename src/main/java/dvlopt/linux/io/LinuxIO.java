@@ -67,6 +67,26 @@ public class LinuxIO {
     public static native int close( int fd ) ;
 
 
+    public static native int ioctl( int        fd      ,
+                                    NativeLong request ,
+                                    int        arg     ) ;
+
+
+    public static native int ioctl( int        fd      ,
+                                    NativeLong request ,
+                                    long       arg     ) ;
+                                    
+
+    public static native int ioctl( int        fd ,
+                                    NativeLong request ,
+                                    NativeLong arg     ) ;
+
+
+    public static native int ioctl( int        fd      ,
+                                    NativeLong request ,
+                                    Pointer    arg     ) ;
+
+
     public static native long lseek64( int  fd      ,
                                        long offset  ,
                                        int  whence  ) ;
