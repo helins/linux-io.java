@@ -10,6 +10,15 @@ import io.dvlopt.linux.SSizeT ;
 
 
 
+
+/**
+ * Class containing static methods and constants for performing basic native IO.
+ * <P>
+ * The API is kept close to what LibC offers so that users can easily write higher
+ * level constructs.
+ *
+ * @see <a href="https://www.gnu.org/software/libc/manual/html_node/Low_002dLevel-I_002fO.html#Low_002dLevel-I_002fO">LibC low-level IO</a>
+ */
 public class LinuxIO {
 
 
