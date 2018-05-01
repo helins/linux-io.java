@@ -4,8 +4,8 @@ package dvlopt.linux.io ;
 import com.sun.jna.Native     ;
 import com.sun.jna.NativeLong ;
 import com.sun.jna.Pointer    ;
-import dvlopt.linux.SizeT     ;
-import dvlopt.linux.SSizeT    ;
+import io.dvlopt.linux.SizeT  ;
+import io.dvlopt.linux.SSizeT ;
 
 
 
