@@ -8,6 +8,16 @@ basic utilities such as opening and R/W a file or performing ioctl calls through
 [Java Native Access](https://github.com/java-native-access/jna) on a Linux
 system.
 
+## Usage
+
+Simply read the
+[javadoc](https://dvlopt.github.io/doc/java/linux-io/io/dvlopt/linux/io/package-summary.html).
+
+Everything is kept close to what LibC offers in order to let users build
+higher-level constructs themselves. As such, reading [this
+documentation](https://www.gnu.org/software/libc/manual/html_node/Low_002dLevel-I_002fO.html#Low_002dLevel-I_002fO)
+is highly recommended.
+
 ## License
 
 MIT License
