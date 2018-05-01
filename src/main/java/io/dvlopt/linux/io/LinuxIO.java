@@ -1,4 +1,4 @@
-package dvlopt.linux.io ;
+package io.dvlopt.linux.io ;
 
 
 import com.sun.jna.Native     ;
