@@ -1,5 +1,9 @@
 # linux-io
 
+[
+![Download](https://api.bintray.com/packages/dvlopt/maven/linux-io/images/download.svg)
+](https://bintray.com/dvlopt/maven/linux-io/_latestVersion)
+
 Sometimes, for instance when interacting with hardware, native IO is needed and
 java does not provide much for doing so because the JVM aims to be
 platform-independant. This library builds upon
