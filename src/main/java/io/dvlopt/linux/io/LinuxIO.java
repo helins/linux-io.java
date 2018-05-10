@@ -73,6 +73,11 @@ public class LinuxIO {
 
 
 
+    private LinuxIO() {}
+
+
+
+
     public static native int close( int fd ) ;
 
 
@@ -110,15 +115,15 @@ public class LinuxIO {
                                      int    mode  ) ;
 
 
-    public static native int openat( int    dirFD ,
-                                     String path  ,
-                                     int    flags ) ;
+    public static native int openat64( int    dirFD ,
+                                       String path  ,
+                                       int    flags ) ;
 
 
-    public static native int openat( int    dirFD ,
-                                     String path  ,
-                                     int    flags ,
-                                     int    mode  ) ;
+    public static native int openat64( int    dirFD ,
+                                       String path  ,
+                                       int    flags ,
+                                       int    mode  ) ;
 
 
     public static native SSizeT read( int    fd     ,
