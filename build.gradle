@@ -10,7 +10,7 @@ plugins {
 
 def globalName    = 'linux-io'
 
-def globalVersion = '0.0.0'
+def globalVersion = '0.0.1'
 
 def globalDesc    = 'Basic Linux IO utilities for java through JNA'
 
@@ -24,7 +24,7 @@ version = globalVersion
 
 
 dependencies {
-    api 'io.dvlopt:linux-common:0.0.0'
+    api 'io.dvlopt:linux-common:0.0.1'
 }
 
 
@@ -146,4 +146,12 @@ bintray {
             }
         }
     }
+}
+
+
+
+
+if ( JavaVersion.current() != JavaVersion.VERSION_1_8 ) {
+
+    throw new GradleException( "Must be used with Java 8" )
 }
