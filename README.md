@@ -4,8 +4,11 @@
 ![Download](https://api.bintray.com/packages/dvlopt/maven/linux-io/images/download.svg)
 ](https://bintray.com/dvlopt/maven/linux-io/_latestVersion)
 
+[![Maven
+Central](https://maven-badges.herokuapp.com/maven-central/io.dvlopt/linux-io/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.dvlopt/linux-io)
+
 Sometimes, for instance when interacting with hardware, native IO is needed and
-java does not provide much for doing so because the JVM aims to be
+Java does not provide much for doing so because the JVM aims to be
 platform-independant. This library builds upon
 [linux-common](https://github.com/dvlopt/linux-common.java) in order to provide
 basic utilities such as opening and R/W a file or performing ioctl calls through
