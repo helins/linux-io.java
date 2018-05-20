@@ -10,7 +10,7 @@ plugins {
 
 def globalName    = 'linux-io'
 
-def globalVersion = '0.0.2'
+def globalVersion = '0.0.3'
 
 def globalDesc    = 'Basic Linux IO utilities for java through JNA'
 
@@ -24,7 +24,7 @@ version = globalVersion
 
 
 dependencies {
-    api 'io.dvlopt:linux-common:0.0.2'
+    api 'io.dvlopt:linux-common:0.1.0'
 }
 
 
