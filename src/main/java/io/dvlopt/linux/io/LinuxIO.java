@@ -47,6 +47,8 @@ public class LinuxIO {
 
 
 
+    // Flags for opening a stream.
+    //
     public static final int O_APPEND    = 1024    ;
     public static final int O_ASYNC     = 8192    ;
     public static final int O_CLOEXEC   = 524288  ;
@@ -69,6 +71,8 @@ public class LinuxIO {
     public static final int O_WRONLY    = 1       ;
 
 
+    // Flags for setting permissions on a resource.
+    //
     public static final int S_IRWXU = 448 ;
     public static final int S_IRUSR = 256 ;
     public static final int S_IWUSR = 128 ;
@@ -83,6 +87,8 @@ public class LinuxIO {
     public static final int S_IXOTH = 1   ;
 
 
+    // Values for seeking a stream.
+    //
     public static final int SEEK_SET = 0 ;
     public static final int SEEK_CUR = 1 ;
     public static final int SEEK_END = 2 ;
@@ -90,9 +96,16 @@ public class LinuxIO {
 
 
 
+    // Privatizes constructor as this class provides only static methods.
+    //
     private LinuxIO() {}
 
 
+
+
+    // 
+    // Public natives functions.
+    //
 
 
     public static native int close( int fd ) ;
