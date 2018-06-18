@@ -18,7 +18,7 @@ system.
 ## Usage
 
 Simply read the
-[javadoc](https://dvlopt.github.io/doc/java/linux-io/io/dvlopt/linux/io/package-summary.html).
+[javadoc](https://dvlopt.github.io/doc/java/io.dvlopt/linux-io/io/dvlopt/linux/io/package-summary.html).
 
 Everything is kept close to what LibC offers in order to let users build
 higher-level constructs themselves. As such, reading [this
