@@ -7,16 +7,16 @@ plugins {
 
 
 
-def globalName    = 'linux-io'
+def globalName    = "linux-io"
 
-def globalVersion = '0.0.4'
+def globalVersion = "0.0.4"
 
-def globalDesc    = 'Basic Linux IO utilities for java through JNA'
+def globalDesc    = "Basic Linux IO utilities for java through JNA"
 
-def globalUrl     = 'https://github.com/helins/linux-io.java'
+def globalUrl     = "https://github.com/helins/linux-io.java"
 
 
-group   = 'io.helins'
+group   = "io.helins"
 version = globalVersion
 
 
@@ -30,7 +30,7 @@ repositories {
 
 
 dependencies {
-    api 'io.helins:linux-common:0.1.4'
+    api "io.helins:linux-common:0.1.4"
 }
 
 
@@ -55,7 +55,7 @@ tasks.jar {
 
 javadoc {
     options.links( "https://docs.oracle.com/en/java/javase/11/docs/api/"    ,
-                   'http://java-native-access.github.io/jna/4.5.1/javadoc/' ,
+                   "http://java-native-access.github.io/jna/4.5.1/javadoc/" ,
                    "https://javadoc.io/doc/io.helins/linux-common"          )
 }
 
