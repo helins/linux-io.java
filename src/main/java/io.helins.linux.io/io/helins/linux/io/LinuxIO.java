@@ -31,7 +31,7 @@ public class LinuxIO {
 
     static {
     
-        Native.register( "c" ) ;
+        Native.register( LinuxIO.class, "c" ) ;
     }
 
 
